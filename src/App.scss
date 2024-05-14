@@ -1,0 +1,31 @@
+body {
+  font-family: "Rufina", serif;
+}
+
+.taviraj{
+    font-family: "Taviraj", serif;
+}
+.nav-item {
+  cursor: pointer;
+}
+.home-banner {
+  background-image: url("./assets/banner.png");
+  background-size: cover;
+  background-position: right;
+  height: 87vh;
+  .banner-btn {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+  }
+}
+
+.foot-container{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+@media only screen and (min-width: 1600px) {
+  .banner-txt {
+    padding-top: 4.5rem;
+  }
+}
